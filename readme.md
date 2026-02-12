@@ -1,4 +1,4 @@
-# PureThermal 1/2/3/Mini/Pro Reference Firmware
+# PureThermal 1 Clone Reference Firmware
 
 [![Build Status](https://travis-ci.org/groupgets/purethermal1-firmware.svg?branch=master)](https://travis-ci.org/groupgets/purethermal1-firmware)
 
@@ -51,7 +51,7 @@ Then you need to add this location to your path. Add to your .bashrc, or every t
 
 ### Clone and Build
 
-    git clone https://github.com/groupgets/purethermal1-firmware
+    git clone https://github.com/jusubbi/purethermal1-clone-firmware
     cd purethermal1-firmware
 
 If you wish, you can modify `Src/project_config.h` to customize your build. Then you can simply build:
