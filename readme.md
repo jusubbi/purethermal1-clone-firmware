@@ -52,7 +52,7 @@ Then you need to add this location to your path. Add to your .bashrc, or every t
 ### Clone and Build
 
     git clone https://github.com/jusubbi/purethermal1-clone-firmware
-    cd purethermal1-firmware
+    cd purethermal1-clone-firmware
 
 If you wish, you can modify `Src/project_config.h` to customize your build. Then you can simply build:
 
