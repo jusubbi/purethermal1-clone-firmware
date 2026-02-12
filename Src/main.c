@@ -210,7 +210,7 @@ int main(void)
 	  PT_SCHEDULE(uart_task(&uart_task_pt));
 #endif
 	  if (pt_board == PT_BOARD_PT1) {
-	  PT_SCHEDULE(button_task(&button_task_pt));
+	  //PT_SCHEDULE(button_task(&button_task_pt));
 	  }
 
 	  PT_SCHEDULE(lepton_attribute_xfer_task(&lepton_attribute_xfer_task_pt));
